@@ -7,7 +7,7 @@ Gdy zostanie zebrana odpowiednia ilość oczekujących graczy [3], serwer odlicz
 •	użyta technologia
 
 - BSD socket na systemie linux – użyte do komunikacji klient-serwer (linux-linux)
-- 
+
 - raylib/raygui – silnik graficzny będący wrapperem opengl z dostępem do kreatora GUI i opcją manipulowania kolizji napisana w C
 
 •	Serializacja informacji
