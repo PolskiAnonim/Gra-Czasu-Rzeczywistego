@@ -38,5 +38,3 @@ dłuższa, niż minuta – rozwiązanie jest uczciwe dla pozostałych graczy (za
 
 ▪	Do zarządzania każdej z gier chcieliśmy wykorzystać wątki do każdej z części rozgrywki (co zostało prawidłowo wykonane, jednak sprawiło problem). Każdy oddzielny wątek przypada na: poczekalnie, rozgrywkę, obsługę gniazda dla każdego z graczy. Ponadto początkowo klient wraz z serwerem musiały pracować w identycznym tempie inaczej gracze byli coraz bardziej „rozsynchronizowani” przez pobieranie starszych pakietów. W ostatecznej wersji klient odbiera w jednej klatce wszystkie pakiety dotyczące pozycji znajdujące się obecnie w buforze, co sprawia iż może on działać wolniej od serwera, jednak prędkości obydwu programów zostały ograniczone do 60 kl./s/
 
-
-
